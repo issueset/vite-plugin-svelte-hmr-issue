@@ -6,6 +6,6 @@
 
 <style>
   .apple:before {
-    content: 'Client load 5';
+    content: 'Client load 6';
   }
 </style>

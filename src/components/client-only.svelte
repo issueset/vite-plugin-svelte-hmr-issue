@@ -6,6 +6,6 @@
 
 <style>
   .apple:before {
-    content: 'Client only 5';
+    content: 'Client only 6';
   }
 </style>

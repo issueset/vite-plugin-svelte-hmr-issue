@@ -1,0 +1,12 @@
+diff --git a/src/plugins/hot-update.js b/src/plugins/hot-update.js
+index b264009a361258db88fa09e19f0d9c745cca92a8..60c70393d4cbb84d4e28cb718994cfb95b45e588 100644
+--- a/src/plugins/hot-update.js
++++ b/src/plugins/hot-update.js
+@@ -81,6 +81,7 @@ export function hotUpdate(api) {
+ 				const svelteRequest = idParser(ctx.file, false, ctx.timestamp);
+ 				if (svelteRequest) {
+ 					const { modules } = ctx;
++					console.log('[DEBUG] ctx.modules:', modules.map((m) => m.id));
+ 					const svelteModules = [];
+ 					const nonSvelteModules = [];
+ 					for (const mod of modules) {

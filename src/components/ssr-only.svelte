@@ -6,6 +6,6 @@
 
 <style>
   .apple:before {
-    content: 'SSR Only 5';
+    content: 'SSR Only 6';
   }
 </style>
