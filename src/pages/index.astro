@@ -1,5 +1,7 @@
 ---
-import Apple from '../components/apple.svelte';
+import ClientOnly from '../components/client-only.svelte';
+import ClientLoad from '../components/client-load.svelte';
+import SSROnly from '../components/ssr-only.svelte';
 ---
 
 <html lang="en">
@@ -12,6 +14,8 @@ import Apple from '../components/apple.svelte';
 	</head>
 	<body>
 		<h1>Astro</h1>
-		<Apple />
+		<ClientLoad client:load />
+		<ClientOnly client:only="svelte" />
+		<SSROnly />
 	</body>
 </html>
