@@ -12,6 +12,6 @@
   .apple {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: rgb(0, 229, 255);
   }
 </style>
